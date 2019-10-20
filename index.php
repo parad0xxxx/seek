@@ -3,7 +3,6 @@
  * Created by Parad0x and khai52
  * This program is free software, hence it being under-development still.
  * \\ You can redistribute it and modify it.
-
 */
 
 // origin point
