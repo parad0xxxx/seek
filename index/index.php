@@ -25,7 +25,7 @@ function get_details($url) {
 	// create an array of all title tags
 	$title = $doc->getElementsByTagName("title");
 	// there should be only one title on each page, giving our array only one element.
-	$title = $title->item(0)->nodeValue;
+	@$title = @$title->item(0)->nodeValue;
 	// give description and keywords no initial value, to prevent errors.
 	$description = "";
 	$keywords = "";
